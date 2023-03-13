@@ -1,0 +1,12 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP- hypertext transfer protocol it used to connect the user and server. HTTP is a user to communicate data on the World Wide Web (WWW) and transfer hypertext.  User send a request to the server and server respond to the user according to the HTTP. 
+HTTP1.1 Which was created in 1997, HTTP1.1 loads resources one after the other, but the drawback of HTTP1.1 is if one resource cannot be loaded, it blocks all the other resources behind it. HTTP1.1 It compresses data by itself.
+HTTP.2 which was created in 2015. is able to use a single TCP (Transmission Control Protocol) connection to send multiple streams of data at once so that no one resource blocks any other resource. HTTP/2 uses HPACK which is used to split data from header. it compresses the header.
+
+2. Write a blog about objects and its internal representation in Javascript:
+
+JavaScript Objects is most important data-type, which forms the basis for modern JavaScript. And object is different from JavaScripts primitive data-types. 
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+Object is a reference data type. the variables are assigned a reference or pointer value. and that pointer or reference point the location of object stored memory location. These variables don’t store any actual values. 
+Object in JS defined us a unordered collection of related data of primitive or reference types, in the form of key (variables or functions): value pairs.  and object can be created with figure brackets {} with an optional list of properties.
